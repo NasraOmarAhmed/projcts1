@@ -68,7 +68,7 @@ ul li a:hover{
 .right-side button{
     /* /* margin-left: 30%;  */
 
-    margin-left: 40%; 
+    margin-left: 33%; 
     background-color: orange;
     height: 50px;
     width: 180px;
@@ -515,7 +515,27 @@ input{
         display: flex;
         flex-direction: column;
     }
-
+    .header{
+        background-color: rgb(3, 2, 25);
+        height: 100px;
+        position: relative;
+        padding: 2px 30px;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    
+    
+    .header-parent{
+        background: rgba(0, 0, 0, 0.8) url(images/restruant1.jpeg);
+        height: 530px;
+        background-size: 100% 530px;
+        background-repeat: no-repeat;
+        /* position: relative; */
+        background-blend-mode: darken;
+        margin-top: -20px;
+    
+    }
     
    .links ul li  {
         
@@ -557,10 +577,10 @@ input{
     } */
 
 
-    .header-parent{
+    /* .header-parent{
         height: 1200px;
   
-    }
+    } */
 
     .about-parent{
         display: flex;
@@ -570,10 +590,10 @@ input{
     .images img{
         display: grid;
         grid-template-columns: 200px 200px;
-        margin-left: 30px;
+        margin-left: -10px;
     }
     .about{
-        margin-left: 70px;
+        margin-left: 50px;
         margin-top: -150px;
     }
 
@@ -581,11 +601,26 @@ input{
         display: grid;
         grid-template-columns: 300px 300px;
         gap: 30px;
+        animation: none;
+        margin-left: -100px;
+    }
+    .slider{
+        margin-left:-300px;
+    }
+    .navigation-manual{
+        left: -70px;
     }
     .footer-parent{
         display: grid;
-        grid-template-columns: 300px 300px;
+        grid-template-columns: 250px 250px;
         height: 900px;
+        
+    }
+    .footer-parent p{
+        font-size: 20px;
+    }
+    .last{
+        margin-left: 25px;
     }
     .right-side {
         margin-left: -34%;
@@ -596,5 +631,8 @@ input{
     .right-side{
         display: none;
     }
-
+  .footer4 {
+    width: 250px;
+    margin-left: -20px;
+  }
 }

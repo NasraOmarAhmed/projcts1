@@ -68,7 +68,7 @@ ul li a:hover{
 .right-side button{
     /* /* margin-left: 30%;  */
 
-    margin-left: 40%; 
+    margin-left: 33%; 
     background-color: orange;
     height: 50px;
     width: 180px;
@@ -1170,7 +1170,7 @@ input{
 
 
 
-@media screen and (max-width:700px){
+@media screen and (max-width:600px){
     /* ul li a{
         display: none;
        
@@ -1210,12 +1210,12 @@ input{
     }
 
     .home-text h1{
-         font-size: 40px;
-         margin-top: 80px;
+         font-size: 30px;
+         margin-top: 20px;
          
     }
     .home-text p{
-        font-size: 20px;
+        font-size: 16px;
     }
     .center{
         display: flex;
@@ -1227,19 +1227,44 @@ input{
         position: static;
     } */
 
+    
 
-    .header-parent{
-        height: 1200px;
+    /* .header-parent{
+        height: 1000px;
   
+    } */
+
+    .header{
+        background-color: rgb(3, 2, 25);
+        height: 100px;
+        position: relative;
+        padding: 2px 30px;
+        display: flex;
+        justify-content: space-between;
+       
     }
+    
+    
+    .header-parent{
+        background: rgba(0, 0, 0, 0.8) url(images/restruant1.jpeg);
+        height: 1000px;
+        background-size: 100% 1000px;
+        background-repeat: no-repeat;
+        /* position: relative; */
+        background-blend-mode: darken;
+        margin-top: -20px;
+    
+    }
+    
     .image1 img{
         margin-top: 20px;
-        margin-left: 10px;
+       
     }
     .boxes{
         display: grid;
         grid-template-columns: 300px 300px;
-        gap: 30px;
+        gap: 10px;
+        margin-left: -65px;
     }
     .about-parent{
         display: flex;
@@ -1249,15 +1274,17 @@ input{
     .images img{
         display: grid;
         grid-template-columns: 200px 200px;
-        margin-left: 30px;
+        margin-left: -10px;
     }
     .about{
-        margin-left: 70px;
+        margin-left: 50px;
         margin-top: -150px;
     }
     .Chicken-parent{
         display: flex;
         flex-direction: column;
+        margin-left: -60px;
+        width: 100%;
     }
     .chiken3 h2{
         margin-right: -30px;
@@ -1265,26 +1292,46 @@ input{
     .video-parent{
         display: flex;
         flex-direction: column;
-        margin-left: 20px;
+        width: 100%;
+        animation: none;
     }
     .video{
         width: 100%;
+    }
+    input{
+        height: 40px;
+        width: 160px;
+    }
+    .input{
+        width: 400px;
+    }
+    .btn3{
+        width: 425px;
     }
     .mans{
         display: grid;
         grid-template-columns: 300px 300px;
         gap: 30px;
+        animation: none;
+        margin-left: -100px;
     }
     .slider{
-        margin-left:-200px;
+        margin-left:-300px;
     }
     .navigation-manual{
-        left: 10px;
+        left: -70px;
     }
     .footer-parent{
         display: grid;
-        grid-template-columns: 300px 300px;
+        grid-template-columns: 250px 250px;
         height: 900px;
+        
+    }
+    .footer-parent p{
+        font-size: 20px;
+    }
+    .last{
+        margin-left: 25px;
     }
 
  
