@@ -344,4 +344,7 @@ input{
     .center h1{
         margin-top: 50px;
     }
+    .right-side{
+        display: none;
+    }
 }
