@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgb(3, 2, 25);
+height: 140px;
+position: fixed;
+width: 100%;
+}
+html{
+    font-family: sans-serif;
+}
+
+.header-parent{
+    background: rgba(0, 0, 0, 0.9) url(images/restruant1.jpeg);
+    background-blend-mode: darken;
+    height: 500px;
+    background-size: 100%;
+
+}
+.logo img{
+    margin-top:7px;
+   height: 100px;
+   width: 100px;
+      
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-top: -100px;
+
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+    /* margin-left: 100%; */
+    
+    
+}
+ul li a:hover{
+    color: orange;
+}
+/* .logo img{
+     margin-top:7px;
+    height: 100px;
+    width: 100px;
+       
+} */
+
+.right-side button{
+    /* margin-left: 120%; */
+    margin-left: 86%;
+    background-color: orange;
+    height: 60px;
+    width: 130px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin-top:-190px;
+    color: white;
+    font-size: 18px;
+}
+.right-side button:hover{
+    background-color: white;
+    color: orange;
+   
+}
+.center{
+    text-align: center;
+    color: white;
+    padding-top: 16%;
+    
+}
+.center h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.center h2{
+    font-size: 20px;
+    color: orange;
+}
+
+
+.dropdown-menu ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 40px;
+    color: white;
+}
+ul li:hover .menu{
+    display: block;
+    position: absolute;
+    background-color: orange;
+
+}
+.menu ul li a:hover{
+    color: blue;
+}
+.menu ul{
+    display: block;
+}
+.menu ul li{
+padding: 20px;
+}
+.menu{
+    display: none;
+}
